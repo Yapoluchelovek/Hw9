@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 420vh;
+}
+.name{
+    display: flex;
+    justify-content: center;
+
+}
+.name-of-site{
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    z-index: 2;
+    top: 450px;
+    font-size: 70px;
+    color: rgb(182, 128, 21);
+    border-bottom: 6px solid rgb(182, 128, 21);
+}
+.korruptsiya{
+    width: 100%;
+    height: 750px;
+    z-index: 1;
+    position: absolute;
+}
+.block-of-content1{
+    display: flex;
+    flex-direction: raw;
+}
+.content1{
+    margin-top: 800px;
+    font-size: 25px;
+}
+.flag{
+    margin-top: 825px;
+    margin-left: 100px;
+    width: 350px;
+    height: 175px;
+    border-radius: 10px;
+}
+.content2{
+    font-size: 25px;
+    margin-bottom: 500px;
+    margin-right: 50px;
+    display: inline;
+    position: absolute;
+    right: 25px;
+}
+.no-koruptsiya{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    display: inline;
+}
+.block-of-content3{
+    display: inline-block;
+}
+.content3{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.img-of-koruptsiya2{
+    width: 400px;
+    height: 240px;
+    margin-left: 1075px;
+    margin-top: -260px;
+}
+.flaeer{
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    box-shadow: 5px 5px 25px;
+    border-radius: 25px;
+    margin: 50px auto;
+}
+.block-of-name-flaeer{
+    display: flex;
+    justify-content: center;
+}
+.name-of-card{
+    font-style: 50px;
+    font-family: 'Caveat', cursive;
+    margin-top: 25px;
+    color: rgb(182, 128, 21);
+}
+.block-of-content-flaeer{
+    display: flex;
+    justify-content: center;
+}
+.content-flaeer{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(182, 128, 21);
+}
+.orange-square{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(182, 128, 21);
+    margin-top: 175px;
+}
+.up{
+    color: rgb(182, 128, 21);
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 175px;
+    margin-left: 1350px;
+}
+.up:hover{
+    width: 110px;
+    height: 35px;
+    color: white;
+    background-color: rgb(182, 128, 21);
+    border: 3px solid white;
+}
+.Kontakts{
+    margin-top: -75px;
+    margin-left: 50px;
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 25px;
+}
